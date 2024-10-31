@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "rating": 5,
+    "comment": "Fantastic product! Exceeded my expectations.",
+    "date": "2024-10-25"
+  },
+  {
+    "id": "2",
+    "rating": 4,
+    "comment": "Very good quality, but a bit pricey.",
+    "date": "2024-10-24"
+  },
+  {
+    "id": "3",
+    "rating": 3,
+    "comment": "Average experience. It works but could be better.",
+    "date": "2024-10-23"
+  },
+  {
+    "id": "4",
+    "rating": 2,
+    "comment": "Not great, had several issues with it.",
+    "date": "2024-10-22"
+  },
+  {
+    "id": "5",
+    "rating": 1,
+    "comment": "Very disappointed. Would not recommend.",
+    "date": "2024-10-21"
+  },
+  {
+    "id": "6",
+    "rating": 4,
+    "comment": "Good overall, but there's room for improvement.",
+    "date": "2024-10-20"
+  }
+]
