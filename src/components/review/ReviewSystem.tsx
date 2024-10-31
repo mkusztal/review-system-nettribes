@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  Link,
   List,
   ListItem,
   ListItemText,
@@ -11,6 +12,7 @@ import {
 import React, { useState } from "react";
 import { IReview } from "./IReview";
 import reviewData from "../../config/db/data.json";
+import { GitHub } from "@mui/icons-material";
 
 export const ReviewSystem: React.FC = () => {
   const [rating, setRating] = useState<number>(0);
@@ -32,9 +34,19 @@ export const ReviewSystem: React.FC = () => {
 
   return (
     <Box sx={{ maxWidth: 600, mx: "auto", p: 3 }}>
-      <Typography variant='h6' gutterBottom>
-        Leave a Review
-      </Typography>
+      <div>
+        <Typography variant='h6' gutterBottom>
+          Leave a Review
+        </Typography>
+        <Link
+          href='https://github.com/mkusztal/review-system-nettribes'
+          target='_blank'
+          rel='noreferrer'
+          color='inherit'
+        >
+          <GitHub />
+        </Link>
+      </div>
       <Rating
         name='Rating'
         value={rating}
